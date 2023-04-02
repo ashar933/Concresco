@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="login_s.css">
+        <script src="jquery-3.6.1.js"></script>
+    </head>
+
+    <body>
+        
+
+        <div class="signup">
+            <form>
+                <h1>SignUp</h1><br>
+                <input type="text" name="uname" placeholder="User name" required=""><br>
+                <input type="tel" placeholder="Phone number" pattern="[0-9]{10}" max="10" required=""><br>
+                <textarea name="adname" rows="3" cols="30" placeholder="Address" required=""></textarea>
+                <input type="Password" name="pname" placeholder="Password" required=""><br>
+                <button class="btn1">SignUp</button><br>
+                <p id="msg1"><a href="#">log in</a> if you already have an account</p>
+            </form>
+        </div>
+
+        <div class="login">
+            <form>
+                <h1>Log in</h1><br>
+                <input type="text" name="uname" placeholder="User name" required=""><br>
+                <input type="Password" name="pname" placeholder="Password" required=""><br>
+                <br>
+                <button class="btn3">Login</button><br>
+                <p id="msg2"><a href="#">sign up</a>now to place order</p>
+            </form>   
+        </div>
+
+       
+
+        <script>
+            $(document).ready(function(){
+            $("#msg1 a").click(function(){
+                $(".signup").hide("slow");
+                $(".login").show("slow");
+            })
+         })
+        </script>
+
+        <script>
+            $(document).ready(function(){
+            $("#msg2 a").click(function(){
+                $(".login").hide("slow");
+                $(".signup").show("slow");
+            })
+        })
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 222, 229);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav.navbar{
+  padding-left: 15%;
+  background-color: rgb(118, 245, 215);
+  position: fixed;
+  height: 100px;
+  width: 100%;
+}
+
+.nav-link{
+  color: rgb(123, 1, 123) !important;
+  font-size: 20px !important;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-link:hover{
+  color: darkmagenta;
+  box-shadow: inset 0 -10px 0 0 rgb(255, 233, 237) !important;
+}
+
+.nav-link:active{
+  padding: 12%;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: inset 0 -10px 0 0 rgb(255, 255, 255) !important;
+}
+
+.navbar-brand{
+  color: rgb(123, 1, 123) !important;
+  margin-left: 15px;
+  font-size: 50px !important;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.logo{
+  height: 150px;
+  width: 160px;
+}
+
+h1{
+  color: rgb(123, 1, 123) !important;
+  font-size: 20px !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color: red !important;
+  color: wheat !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.div{
+  margin-left: 250px;
+}
+/*
+.row{
+  background-color: rgb(255, 222, 229);
+}
+*/
+.fa-trash{
+  color : crimson;
+  margin : 8px
+}
+
+.bkg{
+  background-color: rgb(255, 222, 229) !important;
+}
+
+.main-footer{
+  color: black;
+  /*background-color: white;*/
+  padding-top: 3em;
+  margin-top: 550px;
+  position: sticky;
+  bottom: 0;
+  height: 110px;
+  width : 100%;
+  background-image: "https://media.istockphoto.com/id/902893180/vector/pink-strawberry-ice-cream-melted-on-waffle-background-vector-illustration.jpg?b=1&s=612x612&w=0&k=20&c=LYfWV0mOeaPXP9Y9F5_NUL_LM_Pxb9AA8kTWDhguLr0=";
+}
+
+div.col{
+  padding: 25px 50px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.Facebook {
+  color: #4968ad;
+  margin: 5px;
+}
+
+a.Twitter {
+  color: #49a1eb;
+  margin: 5px;
+}
+
+a.Instagram {
+  color: rgb(161, 49, 137);
+  margin: 5px;
+}
+
+table{
+  font-size: small;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
